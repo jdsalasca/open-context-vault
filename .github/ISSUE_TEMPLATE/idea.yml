@@ -1,0 +1,33 @@
+name: Idea Proposal
+description: Capture a product idea or improvement so it is not lost.
+title: "idea: "
+labels: ["idea", "discovery"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem is this idea solving?
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Target users
+      description: Who benefits first?
+    validations:
+      required: true
+  - type: textarea
+    id: expected-impact
+    attributes:
+      label: Expected impact
+      description: Which metric should improve?
+    validations:
+      required: true
+  - type: textarea
+    id: mvp
+    attributes:
+      label: MVP path
+      description: Smallest implementation to test in under 2 weeks.
+    validations:
+      required: true
