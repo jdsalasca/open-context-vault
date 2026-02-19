@@ -1,0 +1,11 @@
+{
+  "name": "open-context-vault",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Portable memory protocol for humans and AI tools.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node src/validate-memory.mjs examples/memory.json"
+  }
+}

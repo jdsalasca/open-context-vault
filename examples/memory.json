@@ -1,0 +1,13 @@
+[
+  {
+    "id": "mem_001",
+    "source": "github_issue",
+    "kind": "knowledge",
+    "content": "Users want markdown export in v0.2",
+    "tags": ["roadmap", "export", "community"],
+    "createdAt": "2026-02-19T00:00:00.000Z",
+    "updatedAt": "2026-02-19T00:00:00.000Z",
+    "sensitivity": "low",
+    "links": ["https://github.com/example/repo/issues/12"]
+  }
+]
